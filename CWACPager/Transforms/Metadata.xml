@@ -10,10 +10,11 @@
     name="managedName">CommonsWare.CWAC.Pager</attr>
   <attr path="/api/package[@name='com.commonsware.cwac.pager.v4']"
     name="managedName">CommonsWare.CWAC.Pager.V4</attr>
+  <!--
   <remove-node path="/api/package[@name='android.support.compat']/class[@name='R']" />
   <remove-node path="/api/package[@name='android.support.coreui']/class[@name='R']" />
   <remove-node path="/api/package[@name='android.support.coreutils']/class[@name='R']" />
   <remove-node path="/api/package[@name='android.support.fragment']/class[@name='R']" />
-  <remove-node path="/api/package[@name='android.support.mediacompat']/class[@name='R']" />
+  <remove-node path="/api/package[@name='android.support.mediacompat']/class[@name='R']" />-->
 
 </metadata>

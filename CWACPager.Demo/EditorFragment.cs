@@ -1,6 +1,6 @@
 ﻿/***
   Copyright (c) 2013 CommonsWare, LLC
-  Xamarin port (c) 2017 Dominik Minta
+  Xamarin Android port (c) 2017 Dominik Minta
   Licensed under the Apache License, Version 2.0 (the "License"); you may not
   use this file except in compliance with the License. You may obtain a copy
   of the License at http://www.apache.org/licenses/LICENSE-2.0. Unless required
@@ -26,7 +26,7 @@ namespace CommonsWare.CWAC.Pager.Demo
 
         internal static EditorFragment NewInstance(string title)
         {
-            EditorFragment frag = new EditorFragment();
+            var frag = new EditorFragment();
             var args = new Bundle();
 
             args.PutString(KeyTitle, title);

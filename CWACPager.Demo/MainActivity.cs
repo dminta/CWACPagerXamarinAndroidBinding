@@ -1,6 +1,6 @@
 ﻿/***
   Copyright (c) 2013 CommonsWare, LLC
-  Xamarin port (c) 2017 Dominik Minta
+  Xamarin Android port (c) 2017 Dominik Minta
   Licensed under the Apache License, Version 2.0 (the "License"); you may not
   use this file except in compliance with the License. You may obtain a copy
   of the License at http://www.apache.org/licenses/LICENSE-2.0. Unless required
@@ -82,7 +82,7 @@ namespace CommonsWare.CWAC.Pager.Demo
 
         ArrayPagerAdapter BuildAdapter()
         {
-            List<IPageDescriptor> pages = new List<IPageDescriptor>();
+            var pages = new List<IPageDescriptor>();
 
             for (int i=0; i<10; i++)
             {
@@ -96,7 +96,7 @@ namespace CommonsWare.CWAC.Pager.Demo
         {
             int current = _pager.CurrentItem;
 
-            SimplePageDescriptor desc = new SimplePageDescriptor(BuildTag(_adapter.Count), BuildTitle(_adapter.Count));
+            var desc = new SimplePageDescriptor(BuildTag(_adapter.Count), BuildTitle(_adapter.Count));
 
             if (before)
             {

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>CommonsWare.CWAC.Pager</id>
+    <version>0.2.6.0</version>
+    <authors>Dominik Minta</authors>
+    <owners>Dominik Minta</owners>
+    <licenseUrl>https://github.com/dminta/CWACPagerXamarinAndroidBinding/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/dminta/CWACPagerXamarinAndroidBinding</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>CWAC-Pager library binding for Xamarin Android (https://github.com/commonsguy/cwac-pager)</description>
+    <releaseNotes>Initial release</releaseNotes>
+    <tags>xamarin android xamarin.android monodroid</tags>
+    <dependencies>
+      <dependency id="Xamarin.Android.Support.Fragment" version="25.3.1" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="..\CWACPager\bin\Release\CommonsWare.CWAC.Pager.dll" target="lib\MonoAndroid71\CommonsWare.CWAC.Pager.dll" />
+  </files>
+</package>

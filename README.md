@@ -1,8 +1,10 @@
 # CWAC-Pager binding for Xamarin.Android
 
-Bindings library contains CWAC-Pager JAR v0.2.6.
+[CWAC-Pager - more information](https://github.com/commonsguy/cwac-pager)
 
-Download prebuilt package from nuget.org:
+Bindings library contains CWAC-Pager v0.2.6 prebuilt JAR.
+
+Download prebuilt nuget package from nuget.org:
 * [CommonsWare.CWAC.Pager](https://www.nuget.org/packages/CommonsWare.CWAC.Pager/)
 
 ## Building
